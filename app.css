@@ -35,6 +35,7 @@ li {
 
 a:link {
   color: black;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -42,12 +43,9 @@ a:visited {
   color: #252528;
 }
 
-
 .media {
-  display: flex;
-  flex-wrap: wrap;
+  display: block;
   max-width: 800px;
-  justify-content: center;
 }
 
 li.pane {
@@ -81,6 +79,10 @@ li.pane {
 .pane video,img {
   border-left: 1px solid hsla(30, 14%, 67%, 0.5);
   width: 100%;
+}
+
+footer {
+  padding: 2em;
 }
 
 @media all and (max-width: 414px) {
